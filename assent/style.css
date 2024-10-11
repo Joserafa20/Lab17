@@ -73,4 +73,12 @@ button{
 button:hover{
     background-color: #45a049;
 }
+/*ENLACES*/
+a{
+    color: #4caf50;
+    text-decoration: none;
+}
 
+a:hover{
+    text-decoration: underline;
+}
