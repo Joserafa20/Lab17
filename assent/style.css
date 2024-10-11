@@ -46,3 +46,30 @@ footer{
     width: 100%;
     bottom: 0;
 }
+
+/*Estilo FLEXBOX */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/*Estilo formulario y botones*/
+input, button{
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #45a049;
+}
